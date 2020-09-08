@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/fullNameShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview" />
+
+    <TextView
+        android:id="@+id/usernameShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview"
+        />
+
+    <TextView
+        android:id="@+id/emailShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview"
+        />
+
+    <TextView
+        android:id="@+id/numberShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview"
+        />
+
+    <TextView
+        android:id="@+id/ShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/showPasswordButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/a"
+            android:background="@drawable/button_x"
+            android:text="Show\nPassword" />
+
+        <Button
+            android:id="@+id/changePasswordButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/a"
+            android:background="@drawable/button_x"
+            android:text="Change Password" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/passwordShowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview" />
+
+</LinearLayout>
